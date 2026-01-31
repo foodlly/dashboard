@@ -21,6 +21,8 @@ import Step7Partnership from './pages/auth/steps/Step7Partnership';
 import Step8Confirmation from './pages/auth/steps/Step8Confirmation';
 import Step2Menu from './pages/auth/step2/Step2Menu';
 import Step2BankOwnerId from './pages/auth/step2/Step2BankOwnerId';
+import Step2CallPreference from './pages/auth/step2/Step2CallPreference';
+import Step2FinalStep from './pages/auth/step2/Step2FinalStep';
 
 // Simple placeholder for separate orders and profile pages or reuse dashboard
 const PlaceholderPage = ({ title }) => (
@@ -51,7 +53,8 @@ function App() {
           <Route path="/step-8-confirmation" element={<Step8Confirmation />} />
           <Route path="/step-2-menu" element={<Step2Menu />} />
           <Route path="/step-2-bank-owner-id" element={<Step2BankOwnerId />} />
-
+          <Route path="/step-2-call-preference" element={<Step2CallPreference />} />
+          <Route path="/step-2-final" element={<Step2FinalStep />} />
 
           {/* Dashboard & Admin Routes - Temporarily Disabled
           <Route path="/dashboard" element={<DashboardOverview />} />

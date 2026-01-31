@@ -9,7 +9,7 @@ const Step2BankOwnerId = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         // Navigate to next page or finish Step 2
-        navigate('/dashboard');
+        navigate('/step-2-call-preference');
     };
 
     return (
